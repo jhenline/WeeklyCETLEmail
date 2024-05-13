@@ -2,7 +2,6 @@
 # Original Author: Henry Acevedo
 # Last Edited by Jeff Henline - May 2024 (refactored for hosting on AWS
 # and Sendgrid for email delivery, config.ini integration, and external txt file for emails)
-#
 
 import configparser
 import re
