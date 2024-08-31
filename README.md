@@ -2,12 +2,6 @@
 
 This Python script generates and sends the CETL (Center for Effective Teaching and Learning) weekly email, which is distributed every Monday morning at 6:00 AM. The script uses the Eventbrite API to retrieve the events for the upcoming week and SendGrid for email delivery.
 
-## Authors
-
-### Henry Acevedo
-Henry Acevedo is the original author of this script. His work laid the foundation for automating the CETL weekly email process, integrating with the Eventbrite API, and ensuring that the script could reliably fetch and format event information. 
-
-
 ## Features
 
 - **Eventbrite Integration**: Automatically fetches events from Eventbrite.
