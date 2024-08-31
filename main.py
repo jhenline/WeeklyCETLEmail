@@ -29,7 +29,7 @@ def sendEmail(data):
     # Load email recipients from recipients.txt
     to_emails = []
     cc_emails = []
-    with open('recipients.txt', 'r') as file:
+    with open('/home/bitnami/scripts/eventbrite/WeeklyCETLEmail/recipients.txt', 'r') as file:
         lines = file.readlines()
         current_list = None
         
