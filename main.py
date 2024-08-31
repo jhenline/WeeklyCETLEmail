@@ -52,7 +52,7 @@ def sendEmail(data):
     message = Mail(
         from_email='cetltech@calstatela.edu',
         to_emails=[To(email) for email in to_emails],
-        subject=f"This week at CETL {mon.strftime('%m/%d/%Y')} - {fri.strftime('%m/%d/%Y')}",
+        subject=f"This week at CETL {mon.strftime('%m/%d/%Y')} - {fri.strftime('%m/%d/%Y')} (from FDMS)",
         html_content=data
     )
 
